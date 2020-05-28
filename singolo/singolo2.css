@@ -1,0 +1,200 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 1024px;
+    margin: auto;
+}
+
+#portfolio {
+    height: 864px;
+    padding: 70px 41px;
+    background-color: #2d303a;
+}
+
+#portfolio .title h1 {
+    color: #666d89;
+    font-size: 30px;
+    font-family: "Lato Black";
+    line-height: 17.86px;
+}
+
+#portfolio .title p {
+    color: #767e9e;
+    font-size: 18px;
+    font-family: "Lato Light";
+    line-height: 30px;
+    margin-top: 27px;
+}
+
+#portfolio .filters {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 10px;
+    text-align: justify;
+}
+
+#portfolio .filters .filter {
+    color: #767e9e;
+    font-size: 11px;
+    line-height: 21.56px;
+    font-family: "Lato Regular";
+    margin-right: 10px;
+    padding: 0 7px;
+    border: 1px solid #767e9e;
+    border-radius: 6px;
+    letter-spacing: 0.4px;
+    transition: all 0.25s;
+    cursor: pointer;
+}
+
+#portfolio .filters .filter:nth-child(1) {
+    margin-left: 2px;
+}
+
+#portfolio .filters .filter:nth-child(2) {
+    padding: 0 2px 0 7px;
+    width: 77px;
+}
+
+#portfolio .filters .filter:hover {
+    color: #fff;
+    border-color: #fff;
+}
+
+#portfolio .images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 19px;
+    padding: 0 1px;
+}
+
+#portfolio .images .image {
+    margin-bottom: 20px;
+    transition: all 0.25s;
+}
+
+#portfolio .images .image:hover {
+    transform: scale(0.9)
+}
+
+#portfolio_bottom {
+    height: 6px;
+    background-color: #323746;
+}
+
+#aboutUs {
+    background-color: #f2f2f2;
+    height: 730px;
+    padding: 69px 42px;
+    text-align: justify;
+}
+
+#aboutUs .title h1 {
+    color: #666d89;
+    font-size: 30px;
+    font-family: "Lato Black";
+    line-height: 17.86px;
+}
+
+#aboutUs .title p {
+    color: #767e9e;
+    font-size: 18px;
+    font-family: "Lato Light";
+    line-height: 30px;
+    margin-top: 27px;
+}
+
+#aboutUs .people {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 45px;
+}
+
+#aboutUs .people .person {
+    width: 300px;
+}
+
+#aboutUs .people .person img {
+    transition: all 0.25s;
+}
+
+#aboutUs .people .person img:hover {
+    transform: scale(0.95);
+}
+
+#aboutUs .people .person:nth-child(2) {
+    width: 300px;
+    margin-left: -2px;
+}
+
+#aboutUs .people .person .description {
+    margin-top: 14px;
+    text-align: justify;
+}
+
+#aboutUs .people .person .description h1 {
+    color: #666d89;
+    font-size: 18px;
+    font-family: "Lato Black";
+    line-height: 17.86px;
+}
+
+#aboutUs .people .person .description p {
+    color: #767e9e;
+    font-size: 12px;
+    font-family: "Lato Regular";
+    line-height: 21.56px;
+    margin-top: 10px;
+    overflow-wrap: break-word;
+}
+
+#aboutUs .people .person .socials {
+    margin-top: 23px;
+}
+
+#aboutUs .people .person .socials i {
+    cursor: pointer;
+    font-size: 14px;
+    color: #69708b;
+    border: 1px solid #69708b;
+    border-radius: 50%;
+    transition: all 0.25s;
+}
+
+#aboutUs .people .person .socials i:hover {
+    color: #fff;
+    background-color: #69708b;
+}
+
+#aboutUs .people .person .socials i:nth-child(1) {
+    padding: 8px 11px 8px 10px;
+    margin-right: 5px;
+}
+
+#aboutUs .people .person .socials i:nth-child(2) {
+    padding: 8px 6px 8px 7px;
+    margin-right: 5px;
+}
+
+#aboutUs .people .person .socials i:nth-child(3) {
+    padding: 8px 7px;
+    margin-right: 5px;
+}
+
+#aboutUs .people .person .socials i:nth-child(4) {
+    padding: 8px;
+}
+
+#aboutUs_bottom {
+    height: 6px;
+    width: 100%;
+    background-color: #fff;
+}
